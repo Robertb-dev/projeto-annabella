@@ -1,0 +1,135 @@
+
+*{
+    width: auto;
+    height: auto;
+}
+
+body{
+    background-image: url(imagens/fundo.png);
+    font: Arial, sans-serif;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;/* primeiro estabelecemos o tamanho da página e depois esse margin vai centralizar
+    os conteudos*/
+}
+
+/*Alinhamento da capa*/
+#capa{
+    text-align: center;
+}
+
+/*Estilos dos links */
+#menu ul{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+nav ul li a:link{
+    margin-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#424242;
+    font-weight: 700;
+    
+}
+a:link, a:active, a:visited{
+    color:#424242;
+}
+
+/*Area conteudo*/
+
+#principal{
+    
+    margin-top: 35px;
+}
+#conteudo{
+    background-color: white;
+}
+
+
+#postagem{
+    width:900px;
+    margin-left: 30px;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
+
+#postagem h1{
+    font-size: 28px;
+    color:#535353;
+}
+
+
+
+
+/*Rodapé */
+
+#rodape{
+    background-color: #d0d0d0;
+}
+
+
+#contato{
+    padding-top: 30px;
+    float: left;
+    width: 45%;
+}
+#contato h3{
+    margin-left: 30px;
+}
+
+#formulario{
+    padding-top: 30px;
+    float: right;
+    width: 45%;
+}
+
+form{
+    width: 300px;
+}
+
+#direitos{
+    clear: both;
+    padding-top: 50px;
+}
+
+#direitos p{
+    text-align: center;
+}
+
+
+
+
+
+/*pagina campanhas publicitárias 640x 425*/
+
+.textoeimagem{
+     text-align: center;
+}
+
+.textoeimagem p{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.imagens{
+    width: 533px;
+    height: 354px;
+    border: 12px solid #d0d0d0;
+   
+}
+
+#postagem h1{
+    margin-bottom: 45px;
+}
